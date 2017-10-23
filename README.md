@@ -1,6 +1,6 @@
 aws-musings
 ===========
-
+ 
 As part of the [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) initiative, `aws-musings` automates as much of your AWS environment setup as possible.
 
 The core technology used in `aws-musings` is [AWS CloudFormation](https://aws.amazon.com/cloudformation/). The CloudFormation scripts can be executed directly from the AWS console, but as each script builds on the ones before it, it's best to use the included shell scripts to facilitate the passing of inputs and outputs to each script.
